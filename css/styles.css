@@ -1,0 +1,212 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --main-title-color: #ffffff;
+  --second-title-color: #303030;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.pre-title {
+    font-weight: 600;
+        font-size: 11px;
+        line-height: 1.36;
+        text-transform: uppercase;
+        
+    }
+
+.secion-title {
+    font-family: "Ralewey", sans-serif;
+        font-size: 72px;
+        line-height: 1.18;
+        letter-spacing: 0.05em;
+}
+
+.button {
+    font-weight: 600;
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.09em;
+        text-transform: uppercase;
+        color: var(--main-title-color);
+        cursor: pointer;
+}
+
+/*-----------Header----------*/
+
+.header {
+  background-color: gray;
+}
+
+.header-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--main-title-color);
+}
+
+.header-link:hover {
+  color: aqua;
+}
+.header-link:focus {
+  color: aqua;
+}
+
+.header-tel {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--main-title-color);
+  text-transform: uppercase;
+}
+/*------Hero------*/
+
+.hero {
+  background-color: #5a5d6b;
+}
+
+.hero-link {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--second-title-color);
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  color: orange;
+}
+
+.hero-pre-title {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+  color: var(--main-title-color);
+}
+
+.hero-after-title {
+  font-size: 18px;
+  line-height: 1.66;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+/*------About------*/
+
+.about-pre-title {
+  color: #303030;
+}
+
+.about-title {
+  color: var(--second-title-color);
+}
+
+.about-after-title {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+.about-text {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: #555555;
+}
+
+/*------Prices-----*/
+
+.prices-pre-title {
+  color: rgba(red, green, blue, alpha);
+}
+
+.prices-title {
+  color: var(--main-title-color);
+}
+
+.prices-item-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+/*-----Benefits-----*/
+
+.benefits {
+}
+
+.benefits-list {
+}
+
+.benefits-item {
+}
+
+.benefits-item > .count {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: calc(57 / 42);
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: var(--second-title-color);
+}
+
+.benefits-item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-align: center;
+  color: var(--second-title-color);
+}
+
+.benefits-pre-title {
+        color: rgba(red, green, blue, alpha);
+}
+
+.benefits-title {
+    
+}
+
+.benefits-after-title {
+}
+
+/*-----Barbers-----*/
+
+
+.barbers-pre-title {
+    color: var(--second-title-color)
+}
+
+.barbers-title {
+    color: var(--second-title-color);
+}
+
+.barbers-item-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(25 / 18);
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--second-title-color);
+}
+
+.barbers-item-text {
+    font-size: 14px;
+    line-height: calc(19 /14);
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: orange;
+}
